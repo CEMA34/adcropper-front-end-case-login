@@ -81,7 +81,9 @@ img {
 
 
 .mailInputDiv__emailInput,
-.passwordInputDiv__passwordInput {
+.container__passwordInput,
+.passwordInputDiv__passwordInput,
+.container__repeatPasswordInput {
     width: 400px;
     height: 40px;
     border-radius: 5px;
@@ -90,7 +92,9 @@ img {
 }
 
 .mailInputDiv__emailInput::placeholder,
-.passwordInputDiv__passwordInput::placeholder{
+.container__passwordInput::placeholder,
+.passwordInputDiv__passwordInput::placeholder,
+.container__repeatPasswordInput::placeholder{
     font-size: 14px;
     opacity:0.4
 }
