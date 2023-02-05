@@ -100,15 +100,15 @@ img {
 }
 
 .mailInputDiv__emailLabel,
-.mailInputDiv__passwordLabel,
 .container__passwordLabel,
-.container__repeatPasswordLabel{
+.container__repeatPasswordLabel,
+.passwordInputDiv__inner__passwordLabel{
     padding-bottom: 1em;
     opacity: 0.6;
 }
 
-.mailInputDiv__passwordLabel,
-.container__repeatPasswordLabel{
+.container__repeatPasswordLabel,
+.passwordInputDiv__inner__passwordLabel{
     padding-top: 1em;
 }
 
